@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/vintage"
+    tools:context=".TelaB">
+
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:text="Plantas"
+            android:background="@drawable/madt"
+            android:layout_marginBottom="10dp"/>
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/home"
+            android:textSize="20dp"
+            android:id="@+id/bm"
+            android:layout_marginBottom="10dp"/>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_marginStart="20dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="A"
+            android:textColor="#696969"
+            android:background="@drawable/bola"/>
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="B"
+            android:background="@drawable/bola"/>
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="C"
+            android:id="@+id/botaoC"
+            android:background="@drawable/bola"/>
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="D"
+            android:id="@+id/botaoD"
+            android:background="@drawable/bola"/>
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="E"
+            android:id="@+id/botaoE"
+            android:background="@drawable/bola"/>
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="F"
+            android:textColor="#696969"
+            android:background="@drawable/bola"/>
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="G"
+            android:textColor="#696969"
+            android:background="@drawable/bola"/>
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="H"
+            android:textColor="#696969"
+            android:background="@drawable/bola"/>
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="I"
+            android:textColor="#696969"
+            android:background="@drawable/bola"/>
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="J"
+            android:textColor="#696969"
+            android:background="@drawable/bola"/>
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="K"
+            android:textColor="#696969"
+            android:background="@drawable/bola"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_marginStart="10dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="L"
+            android:textColor="#696969"
+            android:background="@drawable/bola"/>
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="M"
+            android:id="@+id/botaoM"
+            android:background="@drawable/bola"/>
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="N"
+            android:textColor="#696969"
+            android:background="@drawable/bola"/>
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="O"
+            android:textColor="#696969"
+            android:background="@drawable/bola"/>
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="P"
+            android:id="@+id/botaoP"
+            android:background="@drawable/bola"/>
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="Q"
+            android:textColor="#696969"
+            android:background="@drawable/bola"/>
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="R"
+            android:textColor="#696969"
+            android:background="@drawable/bola"/>
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="S"
+            android:id="@+id/botaoS"
+            android:background="@drawable/bola"/>
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="T"
+            android:id="@+id/botaoT"
+            android:background="@drawable/bola"/>
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="U"
+            android:textColor="#696969"
+            android:background="@drawable/bola"/>
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="V"
+            android:textColor="#696969"
+            android:background="@drawable/bola"/>
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="Z"
+            android:textColor="#696969"
+            android:background="@drawable/bola"/>
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="20dp" />
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#33fffacd"
+        >
+        <com.github.chrisbanes.photoview.PhotoView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/beldroega2"
+            android:layout_marginStart="10dp"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_marginStart="5dp"
+                android:text="Beldroega"
+                android:fontFamily="cursive"
+                android:textSize="25dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Portulaca oleracea"
+                android:textColor="#696969"
+                android:layout_marginStart="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="LER MAIS"
+                android:id="@+id/lmb1"
+                android:fontFamily="serif"
+
+                android:layout_marginStart="160dp"
+                android:layout_marginTop="0dp"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:textColor="#000000"
+                android:text="
+Outros Nomes: beldroega comum, baldroega, onze-horas e salada-de-negro.\n
+A beldroega é considerada como erva daninha, pois essa brota espontâneamente, no Egito e Sudão é cultivada comercialamente para o consumo, não deve ser consumida por pessoas que têm ou que já tiveram pedras no rins.\n
+Localização: Ásia.\n
+Partes comestiveis: Todas.\n
+Efeitos medicinais: Ajudam a fortalecer o sistema imunológico e atuam na prevenção de doenças como resfriados, infecções e câncer.\n
+Vitaminas: Rica fonte de ômega-3, vitaminas A, B e C.\n
+Epoca: Primavera.
+"
+                android:id="@+id/tvb1"
+                android:layout_marginStart="5dp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="20dp" />
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#33fffacd"
+        >
+        <com.github.chrisbanes.photoview.PhotoView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/beldroegao2"
+            android:layout_marginStart="10dp"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_marginStart="5dp"
+                android:text="Beldroegão"
+                android:fontFamily="cursive"
+                android:textSize="25dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Talinum paniculatum"
+                android:textColor="#696969"
+                android:layout_marginStart="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="LER MAIS"
+                android:id="@+id/lmb2"
+                android:fontFamily="serif"
+
+                android:layout_marginStart="160dp"
+                android:layout_marginTop="0dp"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:textColor="#000000"
+                android:text="Planta considerada erva daninha, em outros países é utilizada como verdura, as sementes são otimas substitutas para as sementes de papoula utilizada na confeitaria.\nLocalização: Nativa do continente americano.\nPartes comestiveis: Todas.\nEfeitos medicinais: Usada para amolecer calos, acelerar a cicatrização de feridas, inflamações tópicas e afecções de pele (prurido, erisipela, eczema, inchaço), infecção intestinal, fadiga, debilidade orgânica."
+                android:id="@+id/tvb2"
+                android:layout_marginStart="5dp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="20dp" />
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#33fffacd"
+        >
+        <com.github.chrisbanes.photoview.PhotoView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/icone"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="10dp"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_marginStart="5dp"
+                android:text="Buva"
+                android:fontFamily="cursive"
+                android:textSize="25dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Conyza bonariensis"
+                android:textColor="#696969"
+                android:layout_marginStart="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="LER MAIS"
+                android:id="@+id/lmb3"
+                android:fontFamily="serif"
+
+                android:layout_marginStart="160dp"
+                android:layout_marginTop="0dp"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:textColor="#000000"
+                android:text="
+Outros Nomes: Voadeira, rabo de foguete, arranha gato.
+\nA buva está presente no mundo inteiro, seu usi na culinária se dá com tempero, muito repreendida por agricultores por diminuir a produção.
+\nPartes comestiveis: Folhas.
+\nEfeitos medicinais: Diurético, vermífugo, fungicida, anti-hemorróidas, antidiarreico, afecções urinárias (oliguria, anuria), úlceras, inflamação da próstata e testículos, corrimentos, distúrbios, hepáticos.
+\nEpoca: Entre outono e inverno.
+\n"
+                android:id="@+id/tvb3"
+                android:layout_marginStart="5dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+</ScrollView>

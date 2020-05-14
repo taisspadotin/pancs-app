@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/fundo"
+    android:layout_gravity="center">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:layout_marginStart="100dp"
+            android:src="@drawable/logo"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_height="130dp"
+        android:layout_width="350dp"
+        android:text="PANCs Matos espontâneos\nAs PANCs são plantas alimentícias que não costumam ser usadas para a alimentação, seja por uma questão social ou cultural."
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:fontFamily="serif"
+        android:gravity="center"
+
+        />
+
+    <Button
+        android:id="@+id/btnplantas"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:text="Plantas"
+        android:layout_gravity="center"
+        android:background="@drawable/madeira"
+        android:textColor="#ffffff"
+        />
+
+    <Button
+        android:id="@+id/btnreceitas"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:text="Receitas"
+        android:layout_gravity="center"
+        android:background="@drawable/madeira"
+        android:textColor="#ffffff"
+
+        />
+
+
+    <Button
+        android:id="@+id/btnqndencontrar"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:text="Quando encontrar"
+        android:layout_gravity="center"
+        android:background="@drawable/madeira"
+        android:textColor="#ffffff"
+
+        />
+    <Button
+        android:id="@+id/btnjogo"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:text="Jogo"
+        android:layout_gravity="center"
+        android:background="@drawable/madeira"
+        android:textColor="#ffffff"
+
+        />
+
+
+</LinearLayout>

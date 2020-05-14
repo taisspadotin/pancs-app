@@ -1,0 +1,1071 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Plantas"
+        android:background="@drawable/vintage"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            android:gravity="center"
+
+            >
+<!-- ****************************************************************************************************************************************************************  -->
+            <Button
+                android:layout_width="400dp"
+                android:layout_height="50dp"
+                android:background="@drawable/madt"
+                android:text="Outono"/>
+
+
+
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#22fffafa"
+                >
+                <com.github.chrisbanes.photoview.PhotoView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/icone"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginStart="10dp"
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:text="Buva"
+                        android:textSize="25dp"
+                        android:fontFamily="cursive"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Conyza bonariensis"
+                        android:textColor="#696969"
+                        android:layout_marginStart="5dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:text="LER MAIS"
+                        android:fontFamily="serif"
+                        android:id="@+id/qlm3"
+                        android:layout_marginStart="160dp"
+                        android:layout_marginTop="0dp"
+                        />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:textColor="#000000"
+                        android:text="
+Outros Nomes: Voadeira, rabo de foguete, arranha gato.
+\nA buva está presente no mundo inteiro, seu usi na culinária se dá com tempero, muito repreendida por agricultores por diminuir a produção.
+\nPartes comestiveis: Folhas.
+\nEfeitos medicinais: Diurético, vermífugo, fungicida, anti-hemorróidas, antidiarreico, afecções urinárias (oliguria, anuria), úlceras, inflamação da próstata e testículos, corrimentos, distúrbios, hepáticos.
+\nEpoca: Outono.
+\n"
+                        android:id="@+id/qtp3"
+                        android:layout_marginStart="5dp"
+
+                        />
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+<!-- ****************************************************************************************************************************************************************  -->
+            <Button
+                android:layout_width="400dp"
+                android:layout_height="50dp"
+                android:background="@drawable/madt"
+                android:text="Inverno"/>
+
+
+
+
+
+
+
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#22fffafa"
+                >
+                <com.github.chrisbanes.photoview.PhotoView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/caruru2"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginStart="10dp"
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:text="Caruru"
+
+                        android:textSize="25dp"
+                        android:fontFamily="cursive"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Amaranthus flavus"
+                        android:textColor="#696969"
+                        android:layout_marginStart="5dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:text="LER MAIS"
+                        android:fontFamily="serif"
+                        android:id="@+id/qlm4"
+                        android:layout_marginStart="160dp"
+                        android:layout_marginTop="0dp"
+                        />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:textColor="#000000"
+                        android:text="Outros Nomes: Caruru-de-Cuia, Caruru-Rôxo, Caruru-de-Mancha, Caruru-de-Porco, Caruru-de-Espinho, Bredo-de-Chifre, Bredo-de-Espinho, Bredo-vermelho, Bredo.
+\nPlanta daninha, seu consumo já é feito em parte da Bahia, ele possui diversas variedades de usos.
+\nPartes comestiveis: Todas.
+\nEfeitos medicinais: Ajudar a combater infecções no organismo e auxiliar no tratamento de problemas hepáticos.
+\nAjuda também a combater a osteoporose e a fortalecer os ossos e dentes porque é muito rica em cálcio.
+\nVitaminas: vitaminas A, B1, B2, C, ferro, cálcio e potássio.
+\nEpoca: Inverno.  "
+                        android:id="@+id/qtp4"
+                        android:layout_marginStart="5dp"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#22fffafa"
+                >
+                <com.github.chrisbanes.photoview.PhotoView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/qpv2"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/crepisjaponica2"
+                    android:layout_marginStart="10dp"
+
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:text="Crepis Japonica"
+
+                        android:textSize="25dp"
+                        android:fontFamily="cursive"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Crepis japonica"
+                        android:textColor="#696969"
+                        android:layout_marginStart="5dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:text="LER MAIS"
+                        android:fontFamily="serif"
+                        android:id="@+id/qlm6"
+                        android:layout_marginStart="160dp"
+                        android:layout_marginTop="0dp"
+                        />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:textColor="#000000"
+                        android:text="Outros Nomes: Barba de falcão ou crepe do Japão.\nErva daninha, com flores amarelo ouro, prefere a sombra, também é facil encontra-la em calçadas e muros.\nLocalização: Nativa da Ásia, mas hoje está presente em todo Brasil.\nPartes comestiveis: Todas.\nEfeitos medicinais: antibactericida, antiviral, combate alergias, purifica o sangue, combate diarreia, gazes, é diurético, combate afecções dos rins e fígado, vitilico, diabetes, hipertensão, combate acidose,  é antioxidante, combatendo radicais livres, o envelhecimento precoce, o câncer e doenças crônicas.\nVitaminas: A, C, E, potássio, ferro, carotenóides, fibras e antioxidantes.\nEpoca: Inverno. "
+                        android:id="@+id/qtp6"
+                        android:layout_marginStart="5dp"
+                        />
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+<!-- ****************************************************************************************************************************************************************  -->
+            <Button
+                android:layout_width="400dp"
+                android:layout_height="50dp"
+                android:background="@drawable/madt"
+                android:text="Primavera"/>
+
+
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#22fffafa"
+                >
+                <com.github.chrisbanes.photoview.PhotoView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/qpvbd"
+                    android:src="@drawable/beldroega2"
+                    android:layout_marginStart="10dp"
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:text="Beldroega"
+
+                        android:textSize="25dp"
+                        android:fontFamily="cursive"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Portulaca oleracea"
+                        android:textColor="#696969"
+                        android:layout_marginStart="5dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:text="LER MAIS"
+                        android:fontFamily="serif"
+                        android:id="@+id/qlm1"
+                        android:layout_marginStart="160dp"
+                        android:layout_marginTop="0dp"
+                        />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:textColor="#000000"
+                        android:text="
+Outros Nomes: beldroega comum, baldroega, onze-horas e salada-de-negro.\n
+A beldroega é considerada como erva daninha, pois essa brota espontâneamente, no Egito e Sudão é cultivada comercialamente para o consumo, não deve ser consumida por pessoas que têm ou que já tiveram pedras no rins.\n
+Localização: Ásia.\n
+Partes comestiveis: Todas.\n
+Efeitos medicinais: Ajudam a fortalecer o sistema imunológico e atuam na prevenção de doenças como resfriados, infecções e câncer.\n
+Vitaminas: Rica fonte de ômega-3, vitaminas A, B e C.\n
+Epoca: Primavera.
+"
+                        android:id="@+id/qtp1"
+                        android:layout_marginStart="5dp"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#22fffafa"
+                >
+                <com.github.chrisbanes.photoview.PhotoView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/cosmos"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginStart="10dp"
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:text="Cosmo"
+
+                        android:textSize="25dp"
+                        android:fontFamily="cursive"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cosmos sulphureus "
+                        android:textColor="#696969"
+                        android:layout_marginStart="5dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:text="LER MAIS"
+                        android:fontFamily="serif"
+                        android:id="@+id/qlm5"
+                        android:layout_marginStart="160dp"
+                        android:layout_marginTop="0dp"
+                        />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:textColor="#000000"
+                        android:text="Flor que nasce de forma espontanêa em jardins e terrenos baldios, tem coloração laranja ou amarelada, pode ser usada na decoração de pratos, ou de forma alimenticia.
+                    \nLocalização: É natural do centro-sul e sul mexicano.
+                    \nPartes comestiveis: flor.
+                    \nEpoca: Primavera. "
+                        android:id="@+id/qtp5"
+                        android:layout_marginStart="5dp"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#22fffafa"
+                >
+                <com.github.chrisbanes.photoview.PhotoView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/denteleao2"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginStart="10dp"
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:text="Dente de leão"
+
+                        android:textSize="25dp"
+                        android:fontFamily="cursive"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Taraxacum officinale"
+                        android:textColor="#696969"
+                        android:layout_marginStart="5dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:text="LER MAIS"
+                        android:fontFamily="serif"
+                        android:id="@+id/qlm7"
+                        android:layout_marginStart="160dp"
+                        android:layout_marginTop="0dp"
+                        />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:textColor="#000000"
+                        android:text="Planta espontanêa, nasce no final do inverno e começo da primavera, foi reconhecida como PANC e hoje em dia vem sendo utilizada no consumo de diversos pratos, mas é principalmente conhecida como bolinha de soprar, graças a forma como suas sementes se propagam.
+                    \nLocalização: É de origem europeia.
+                    \nPartes comestiveis: Toda a planta.
+                    \nEfeitos medicinais: As folhas protegem o fígado contra danos causados pelo álcool, e tambem possui efeito antioxidante e antitumoral.
+                    \nEpoca: Primavera."
+                        android:id="@+id/qtp7"
+                        android:layout_marginStart="5dp"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#22fffafa"
+                >
+                <com.github.chrisbanes.photoview.PhotoView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/asthma"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginStart="10dp"
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:text="Erva de santa Luzia (asthma)"
+
+                        android:textSize="25dp"
+                        android:fontFamily="cursive"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Euphorbia hirta"
+                        android:textColor="#696969"
+                        android:layout_marginStart="5dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:text="LER MAIS"
+                        android:fontFamily="serif"
+                        android:id="@+id/qlm8"
+                        android:layout_marginStart="160dp"
+                        android:layout_marginTop="0dp"
+                        />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:textColor="#000000"
+                        android:text="Erva daninha que pode ser encontrada com facilidade em calçadas, terrenos baldios, hortas, muros, etc.
+                    \nLocalização: Nativa da Índia.
+                    \nPartes comestiveis: Todas.
+                    \nEfeitos medicinais: tratar diarreias, inflamações, febre, como bactericida, para lavar feridas
+                    \nEpoca: Primavera. "
+                        android:id="@+id/qtp8"
+                        android:layout_marginStart="5dp"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#22fffafa"
+                >
+                <com.github.chrisbanes.photoview.PhotoView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/guasca"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginStart="10dp"
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:text="Guasca"
+
+                        android:textSize="25dp"
+                        android:fontFamily="cursive"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Galinsoga parviflora"
+                        android:textColor="#696969"
+                        android:layout_marginStart="5dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:text="LER MAIS"
+                        android:fontFamily="serif"
+                        android:id="@+id/qlm10"
+                        android:layout_marginStart="160dp"
+                        android:layout_marginTop="0dp"
+                        />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:textColor="#000000"
+                        android:text="Outros Nomes: picão branco, botão de ouro.
+                    \nPlanta espontanêa utilizada principalmente como tempero.
+                    \nLocalização: Originaria do Peru.
+                    \nPartes comestiveis: Toda a planta.
+                    \nÉpoca: primavera. "
+                        android:id="@+id/qtp10"
+                        android:layout_marginStart="5dp"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#22fffafa"
+                >
+                <com.github.chrisbanes.photoview.PhotoView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/mentruz"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginStart="10dp"
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:text="Mastruz"
+
+                        android:textSize="25dp"
+                        android:fontFamily="cursive"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Coronopus didymus"
+                        android:textColor="#696969"
+                        android:layout_marginStart="5dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:text="LER MAIS"
+                        android:fontFamily="serif"
+                        android:id="@+id/qlm12"
+                        android:layout_marginStart="160dp"
+                        android:layout_marginTop="0dp"
+                        />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:textColor="#000000"
+                        android:text="Também conhecida como ervad e Santa Maria, é uma planta daninha, que se propaga de forma rasteira.
+                    \nÉpoca: Primavera.
+                    \nPartes comestiveis: Toda a planta.
+                    \Efeitos medicinais: Laxativa, cicatrizante, vermífuga, boa em casos de gases, úlcera, câimbras, má circulação, hemorroidas, hemorragia interna, diurética, digestiva, estimulante respiratória, emenagogo (facilita ou aumenta o fluxo menstrual), sedativa, sudorífica, tônica, antiviral, antisséptica, aromática. "
+                        android:id="@+id/qtp12"
+                        android:layout_marginStart="5dp"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#22fffafa"
+                >
+                <com.github.chrisbanes.photoview.PhotoView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/serralha"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginStart="10dp"
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:text="Serralha"
+
+                        android:textSize="25dp"
+                        android:fontFamily="cursive"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sonchus oleraceus"
+                        android:textColor="#696969"
+                        android:layout_marginStart="5dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:text="LER MAIS"
+                        android:fontFamily="serif"
+                        android:id="@+id/qlm15"
+                        android:layout_marginStart="160dp"
+                        android:layout_marginTop="0dp"
+                        />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:textColor="#000000"
+                        android:text="A serralha é uma planta comestível, de sabor amargo, geralmente consumida cozida ou refogada\na serralha tem ação antimicrobiana, anti-inflamatória, anticancerígena, adstringente e de purificação do sangue."
+                        android:id="@+id/qtp15"
+                        android:layout_marginStart="5dp"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#22fffafa"
+                >
+                <com.github.chrisbanes.photoview.PhotoView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/santalusia2"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginStart="10dp"
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:text=" Trapoeba"
+
+                        android:textSize="25dp"
+                        android:fontFamily="cursive"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Commelina nudiflora "
+                        android:textColor="#696969"
+                        android:layout_marginStart="5dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:text="LER MAIS"
+                        android:fontFamily="serif"
+                        android:id="@+id/qlm9"
+                        android:layout_marginStart="160dp"
+                        android:layout_marginTop="0dp"
+                        />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:textColor="#000000"
+                        android:text="Outros Nomes: andaca, andacá, andarca, erva-de-santa-luzia, maria-mole, marianinha-branca, rabo de cachorro.
+                            \nA erva de Santa Luiza é geralmente encontrada em terrenos úmidos e com pouca vegetação.
+                            \nLocalização: Nativa da América Tropical.
+                            \nPartes comestiveis: Folhas.
+                            \nEfeitos medicinais: é usada como diurética, anti-reumática e contra afecções oculares e infecções em geral.
+                            \nEpoca: Primavera. "
+                        android:id="@+id/qtp9"
+                        android:layout_marginStart="5dp"
+                        />
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+            <!-- ****************************************************************************************************************************************************************  -->
+            <Button
+                android:layout_width="400dp"
+                android:layout_height="50dp"
+                android:background="@drawable/madt"
+                android:text="Verão"/>
+
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#22fffafa"
+                >
+                <com.github.chrisbanes.photoview.PhotoView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/qpv1"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/beldroegao2"
+                    android:layout_marginStart="10dp"
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:text="Beldroegão"
+
+
+                        android:textSize="25dp"
+                        android:fontFamily="cursive"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Talinum paniculatum"
+                        android:textColor="#696969"
+                        android:layout_marginStart="5dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:text="LER MAIS"
+                        android:fontFamily="serif"
+                        android:id="@+id/qlm2"
+                        android:layout_marginStart="160dp"
+                        android:layout_marginTop="0dp"
+                        />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:textColor="#000000"
+                        android:text="Planta considerada erva daninha, em outros países é utilizada como verdura, as sementes são otimas substitutas para as sementes de papoula utilizada na confeitaria.\nLocalização: Nativa do continente americano.\nPartes comestiveis: Todas.\nEfeitos medicinais: Usada para amolecer calos, acelerar a cicatrização de feridas, inflamações tópicas e afecções de pele (prurido, erisipela, eczema, inchaço), infecção intestinal, fadiga, debilidade orgânica."
+                        android:id="@+id/qtp2"
+                        android:layout_marginStart="5dp"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#22fffafa"
+                >
+                <com.github.chrisbanes.photoview.PhotoView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/mariapreta"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginStart="10dp"
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:text="Maria Pretinha"
+
+                        android:textSize="25dp"
+                        android:fontFamily="cursive"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Solanum americanum"
+                        android:textColor="#696969"
+                        android:layout_marginStart="5dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:text="LER MAIS"
+                        android:fontFamily="serif"
+                        android:id="@+id/qlm11"
+                        android:layout_marginStart="160dp"
+                        android:layout_marginTop="0dp"
+                        />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:textColor="#000000"
+                        android:text="
+ planta originária do continente americano, que pode ser encontrada nos Estados Unidos, no Peru e no Paraguai, além de ser comum no Brasil.
+\nPropiedades medicinais: Antiespasmódica, Sedativa, Expectorante, Analgésica, Diurética, Depurativa, Emoliente (que amacia, suaviza ou flexibiliza a pele), Cicatrizante, Antirreumática, Diaforética (que provoca o suor, sudorífica), Antiartrítica, Anti-hipertensiva, Aperiente (que atua como um estimulante do apetite), Calmante, Anti-inflamatória, Febrífuga, Mineralizante, Reconstituinte, Afrodisíaca
+
+"
+                        android:id="@+id/qtp11"
+                        android:layout_marginStart="5dp"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#22fffafa"
+                >
+                <com.github.chrisbanes.photoview.PhotoView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/picao"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginStart="10dp"
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:text="Picão"
+
+                        android:textSize="25dp"
+                        android:fontFamily="cursive"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bidens alba"
+                        android:textColor="#696969"
+                        android:layout_marginStart="5dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:text="LER MAIS"
+                        android:fontFamily="serif"
+                        android:id="@+id/qlm13"
+                        android:layout_marginStart="160dp"
+                        android:layout_marginTop="0dp"
+                        />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:textColor="#000000"
+                        android:text="
+ A planta é nutritiva, tem boa quantidade de ferro, cálcio e pró-vitamina A, além de ser, como todas as verduras, rica em fibras, pobre em calorias e gorduras.
+ \nEfeitos medicinais: remédio para angina, diabetes, disenteria, aftosa, hepatite, laringite.
+"
+                        android:id="@+id/qtp13"
+                        android:layout_marginStart="5dp"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#22fffafa"
+                >
+                <com.github.chrisbanes.photoview.PhotoView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/pinceldeestudante"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginStart="10dp"
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:text="Pincel de estudante"
+
+                        android:textSize="25dp"
+                        android:fontFamily="cursive"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Emilia fosbergii"
+                        android:textColor="#696969"
+                        android:layout_marginStart="5dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:text="LER MAIS"
+                        android:fontFamily="serif"
+                        android:id="@+id/qlm14"
+                        android:layout_marginStart="160dp"
+                        android:layout_marginTop="0dp"
+                        />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:textColor="#000000"
+                        android:text="Erva comestível e medicinal (diurética e contra dores corporais e infecções nas vias respiratórias e urinárias). Bastante simpática e fácil de encontrar. "
+                        android:id="@+id/qtp14"
+                        android:layout_marginStart="5dp"
+                        />
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+            <!-- ****************************************************************************************************************************************************************  -->
+
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

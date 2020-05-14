@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "704240704570",
+    "firebase_url": "https://pancsii-52f76.firebaseio.com",
+    "project_id": "pancsii-52f76",
+    "storage_bucket": "pancsii-52f76.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704240704570:android:d509ea8478171cd6",
+        "android_client_info": {
+          "package_name": "com.example.taisspadotin.pancsii"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "704240704570-30iinvgapek2ecrm3irubinei0vltqig.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.taisspadotin.pancsii",
+            "certificate_hash": "5bb8e0111edf63e7ee486b2f318cf21253dc7ae3"
+          }
+        },
+        {
+          "client_id": "704240704570-hlc05h6ie8fi083i5pcebvh4h660q8r1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFzXvTuNP_c_aGvCuRErK6uFZrg0-3l1c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "704240704570-hlc05h6ie8fi083i5pcebvh4h660q8r1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

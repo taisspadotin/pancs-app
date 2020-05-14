@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Receitas"
+    android:background="@drawable/vintage"
+    >
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:background="@drawable/madt"
+        android:text="Receitas"/>
+
+
+
+    <TextView
+
+        android:layout_width="10dp"
+        android:layout_height="20dp" />
+
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:background="#99d2b48c"
+        android:text="Beldroega"/>
+
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="20dp" />
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#22fffafa"
+        >
+        <com.github.chrisbanes.photoview.PhotoView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/salada"
+            android:layout_marginStart="10dp"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_marginStart="5dp"
+                android:text="Salada de beldroega "
+                android:fontFamily="cursive"
+                android:textSize="25dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Saladas"
+                android:textColor="#696969"
+                android:layout_marginStart="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="LER MAIS"
+                android:id="@+id/tvr1"
+                android:fontFamily="serif"
+                android:layout_marginStart="160dp"
+                android:layout_marginTop="0dp"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:textColor="#000000"
+                android:id="@+id/tvi1"
+                android:text="
+
+Ingredientes
+
+\n    1 prato de folhas de beldroega
+\n    Sal, alho socado, pimenta do reino a gosto
+\n    Limão, azeite de oliva ou óleo vegetal a gosto
+
+\nModo de preparo:
+
+\n    Lavar bem as folhas de beldroega e deixar escorrer
+\n    Colocar em uma travessa
+\n    Fazer um molho com os temperos acima e regar com azeite ou óleo vegetal
+
+
+"
+                android:layout_marginStart="5dp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="20dp" />
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#22fffafa"
+        >
+        <com.github.chrisbanes.photoview.PhotoView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/ovo"
+            android:layout_marginStart="10dp"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_marginStart="5dp"
+                android:text="Beldroega com ovo"
+                android:fontFamily="cursive"
+                android:textSize="25dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pratos"
+                android:textColor="#696969"
+                android:layout_marginStart="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="LER MAIS"
+                android:id="@+id/tvr2"
+                android:fontFamily="serif"
+                android:layout_marginStart="160dp"
+                android:layout_marginTop="0dp"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:textColor="#000000"
+                android:id="@+id/tvi2"
+                android:text="
+                Ingredientes:
+
+ \n   6 mãos cheias de Beldroega
+   \n 6 ovos peneirados
+    \n1 cebola
+    \n1 pitada de Sal e pimenta do reino
+    \n2 colheres de sopa de Azeite de oliva
+\nModo de preparo:
+\n1.Para preparar a beldroega com ovo, comece por lavar e desinfectar bem as folhas. Separe as folhas dos ramos mais grossos e reserve. Enquanto isso, coloque meio litro de água aquecendo em uma panela
+\n2.uma vez que a água esteja fervendo, cozinhe as folhas de beldroega por 3 a 4 minutos. Logo de seguida, retire a beldroega da água, esprema um pouco e reserve.
+\n3.Pique finamente a cebola e refogue em uma panela já quente com duas colheres de sopa de azeite de oliva.
+\n4.Adicione a beldroega cozida e misture com a cebola. Cozinhe, mexendo sempre, por mais dois minutos.
+\n5.Junte os ovos, misture bem com a verdura e tempere com sal e pimenta do reino a gosto.
+\n6.Deixe fritar até o ovo ficar bem cozido. Imediatamente, sirva a beldroega com ovo e desfrute!
+
+
+"
+                android:layout_marginStart="5dp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+    <TextView
+
+
+        android:layout_width="10dp"
+        android:layout_height="10dp" />
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:background="#99d2b48c"
+        android:text="CARURU"/>
+
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="20dp" />
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#22fffafa"
+        >
+        <com.github.chrisbanes.photoview.PhotoView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/bacalhau"
+            android:layout_marginStart="10dp"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_marginStart="5dp"
+                android:text="Bredo da semana santa"
+                android:fontFamily="cursive"
+                android:textSize="25dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Carnes"
+
+                android:textColor="#696969"
+                android:layout_marginStart="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="LER MAIS"
+                android:id="@+id/tvr3"
+                android:fontFamily="serif"
+                android:layout_marginStart="160dp"
+                android:layout_marginTop="0dp"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:textColor="#000000"
+                android:id="@+id/tvi3"
+                android:text="
+\nIngredientes
+
+  \n  1 molho de bredo bem verde
+    \n1 cebola
+    \n1 tomate
+    \n1 pimentão verde
+    \nUm pouco de coentro verde
+    \n1/2 vidro de leite de coco ou leite de coco ralado fresco e processado
+    \nAzeite de oliva
+    \nSal
+
+\nModo de preparo:
+
+  \n  Retire as folhas dos talos do ramos de bredo
+    \nLave - as e cozinhe na agua e sal
+    \nDeixe escorrer em uma peneira
+    \nEm outra panela com azeite refogue a cebola, tomate, pimentão e sal
+    \nQuando o refogado estiver bom (molho), acrescente o leite de coco
+    \nPode acrescentar um pouco de água ao refogado
+    \nDeixe por cerca de 3 minutos e acrescente o bredo
+    \nEm seguida acrescente um pouco de coentro verde em pedaços grandes
+    \nÓtimo para servir com bacalhau ou peixes (cozidos ou fritos)
+
+
+"
+
+
+                android:layout_marginStart="5dp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="20dp" />
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#22fffafa"
+        >
+        <com.github.chrisbanes.photoview.PhotoView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/refogado"
+            android:layout_marginStart="10dp"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_marginStart="5dp"
+                android:text="Bredo de coco"
+                android:fontFamily="cursive"
+                android:textSize="25dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pratos"
+
+                android:textColor="#696969"
+                android:layout_marginStart="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="LER MAIS"
+                android:id="@+id/tvr4"
+                android:fontFamily="serif"
+                android:layout_marginStart="160dp"
+                android:layout_marginTop="0dp"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:textColor="#000000"
+                android:id="@+id/tvi4"
+                android:text="
+Ingredientes
+
+    \n4 maços de bredo
+    \n2 xícaras (chá) de água
+    \n3 colheres (sopa) de azeite
+    \n2 dentes de alhos amassados
+    \n1 cebola picada
+    \n1/2 xícara (chá) de coentro picado
+    \n2 tomates picados
+    \n1/2 colher (chá) de colorífero
+    \nSal a gosto
+    \n1 xícara (chá) de leite de coco
+    \nPimenta a gosto
+
+\nModo de preparo
+
+    \nSepare as folhas do bredo, lave bem e escalde para tirar o visgo.
+    \nEscorra e separe.
+    \nLeve uma panela ao fogo com água, o azeite, o alho, a cebola, o coentro, o tomate e o colorífero.
+    \nAcerte o sal.
+    \nCozinhe por 15 minutos e acrescente o bredo.
+    \nAdicione o leite de coco.
+    \nDeixe cozinhar por 10 minutos.
+
+
+"
+
+
+                android:layout_marginStart="5dp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <TextView
+
+
+        android:layout_width="10dp"
+        android:layout_height="10dp" />
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:background="#99d2b48c"
+        android:text="Dente de leão"/>
+
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="20dp" />
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#22fffafa"
+        >
+        <com.github.chrisbanes.photoview.PhotoView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/r1"
+            android:src="@drawable/angu"
+            android:layout_marginStart="10dp"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_marginStart="5dp"
+                android:text="Angu com refogado de dente-de-leão"
+                android:fontFamily="cursive"
+                android:textSize="25dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pratos"
+                android:id="@+id/pvr1"
+                android:textColor="#696969"
+                android:layout_marginStart="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="LER MAIS"
+                android:id="@+id/tvr5"
+                android:fontFamily="serif"
+                android:layout_marginStart="160dp"
+                android:layout_marginTop="0dp"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:textColor="#000000"
+                android:id="@+id/tvi5"
+                android:text="Para o angu, misture o fubá fino de milho com a água. Leve ao fogo, mexendo sempre, até começar a espessar. \nTampe a panela, abaixe o fogo e cozinhe por meia hora ou até que esteja soltando do fundo da panela e com consistência cremosa. Não precisa ficar mexendo. Se quiser, coloque uma pitada de sal.
+2Para o refogado, lave bem as folhas de dente-de-leão, escorra e pique em fatias de meio centímetro. Reserve.\n
+3Numa panela, coloque a gordura e o alho picado. Deixe começar a dourar e junte a água e o sal. Coloque as folhas na água e deixe cozinhar para que fiquem bem macias (cerca de 3 minutos). Se precisar, junte um pouco mais de água aos poucos. Prove o sal e corrija, se necessário. Sirva com o angu ou com polenta mole."
+
+                android:layout_marginStart="5dp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+    <TextView
+
+        android:layout_width="10dp"
+        android:layout_height="20dp" />
+
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:background="#99d2b48c"
+        android:text="Picão"/>
+
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="20dp" />
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#22fffafa"
+        >
+        <com.github.chrisbanes.photoview.PhotoView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/torresmo"
+            android:layout_marginStart="10dp"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_marginStart="5dp"
+                android:text="Picão-Preto com Aipim"
+                android:fontFamily="cursive"
+                android:textSize="25dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pratos"
+                android:textColor="#696969"
+                android:layout_marginStart="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="LER MAIS"
+                android:id="@+id/tvr6"
+                android:fontFamily="serif"
+                android:layout_marginStart="160dp"
+                android:layout_marginTop="0dp"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:id="@+id/tvi6"
+                android:textColor="#000000"
+                android:text="
+                Ingredientes:
+\n2 xícaras de chá de Folhas de Picão tenras;
+\n01 Kg de Aipim macio;
+\n01 caldo de galinha, dentes de alho, galhos de salsa, grãos de coentro e pimenta.
+\nModo de Fazer:
+\nSepare as folhas mais tenras, lave bem, escorra e reserve. Faça um caldo de galinha com l, dentes de alho, galhos de salsa, grãos de coentro e pimenta (ou faça do seu jeito). Cozinhe um aipim e pique-o em cubos. Coe e desengordure o caldo. Coloque 1 colher (sopa) desta gordura numa panela com um dente de alho picado e deixe começar a dourar. Junte uma xícara do caldo e as ervas. Deixe cozinhar por 10 minutos. Acrescente o caldo restante – cerca de 3 xícaras, o aipim picado e uma pimenta ardida picada (a gosto). Prove o sal e corrija, se necessário. Se preferir, use caldo de vegetais. E nhac!! Dá Para duas pessoas.
+              "
+                android:layout_marginStart="5dp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+
+    <TextView
+
+        android:layout_width="10dp"
+        android:layout_height="20dp" />
+
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:background="#99d2b48c"
+        android:text="Pincel de estudante"/>
+
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="20dp" />
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#22fffafa"
+        >
+        <com.github.chrisbanes.photoview.PhotoView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/torresmo"
+            android:layout_marginStart="10dp"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_marginStart="5dp"
+                android:text="pincel de estudante com torresmo "
+                android:fontFamily="cursive"
+                android:textSize="25dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Carnes"
+                android:textColor="#696969"
+                android:layout_marginStart="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="LER MAIS"
+                android:id="@+id/tvr7"
+                android:fontFamily="serif"
+                android:layout_marginStart="160dp"
+                android:layout_marginTop="0dp"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:textColor="#000000"
+                android:text="
+                Ingredientes:10 pés de serralhinha - flores e folhas separadas
+\n3 colheres (sopa) de toucinho cortado em cubinhos
+\n2 dentes de alho grandes bem picado
+\n1 pimenta dedo-de-moça sem sementes picada
+\nMeia xícara de água quente
+\n1/4 colher (chá) de sal
+Lave bem as folhas e flores e deixe-as em solução desinfetante separadamente. Enxague e escorra bem e reserve. Numa panela, coloque o toucinho e deixei derreter e dourar. Tire os torresminhos, reserve, e deixe a gordura. Junte o alho picado. Deixe começar a dourar e junte a pimenta e mexa. Em seguida, junte a água e o sal. Coloque na água as florezinhas e deixe cozinhar por um minuto. Junte as folhas e deixe cozinhar para que fiquem bem macias. Se precisar, junte um pouco mais de água aos poucos. Prove o sal e corrija, se necessário. Sirva com polenta mole, com os torresminhos por cima. Ou com arroz. Ou com o que você quiser. Um ovo para completar e nhac.
+
+\nPara a polenta, misture 1/2 xícara de semolina de milho com 4 xícaras de água. Leve ao fogo e misture até começar a espessar. Junte uma pitada de sal, tampe a panela, abaixe o fogo e cozinhe por meia hora ou até que esteja soltando do fundo da panela e com consistência cremosa.
+
+\nRende: 2 a 3 porções
+"
+                android:id="@+id/tvi7"
+                android:layout_marginStart="5dp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+    <TextView
+
+
+        android:layout_width="10dp"
+        android:layout_height="10dp" />
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:background="#99d2b48c"
+        android:text="SERRALHA"/>
+
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="20dp" />
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#22fffafa"
+        >
+        <com.github.chrisbanes.photoview.PhotoView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/pate"
+            android:layout_marginStart="10dp"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_marginStart="5dp"
+                android:text="patê de serralha"
+                android:fontFamily="cursive"
+                android:textSize="25dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pratos"
+
+                android:textColor="#696969"
+                android:layout_marginStart="5dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="LER MAIS"
+                android:id="@+id/tvr8"
+                android:fontFamily="serif"
+                android:layout_marginStart="160dp"
+                android:layout_marginTop="0dp"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:textColor="#000000"
+                android:text="
+\nIngredientes:
+
+\n2 potes de requeijão;
+\n2 dentes de alho;
+\n½ cebola picada;
+\nsal à gosto;
+\n4 colheres de azeite de oliva.
+\nModo de Preparo:
+
+\n1.Picar a cebola e alho;
+\n2.Colocar todos os ingredientes no liquidificador, com a serralha já lavada;
+\n3.Também pode colocar um pouco de pimenta do reino branca, chimichurri, cebolinha…
+
+"
+
+                android:id="@+id/tvi8"
+                android:layout_marginStart="5dp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+</LinearLayout>
+</ScrollView>
